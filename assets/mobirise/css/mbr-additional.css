@@ -3,7 +3,7 @@ body {
 }
 .display-1 {
   font-family: 'Jost', sans-serif;
-  font-size: calc(2 * 6.8rem);
+  font-size: calc(2 * 6.888888rem);
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
