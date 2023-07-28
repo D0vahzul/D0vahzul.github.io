@@ -5,6 +5,10 @@ body {
   font-family: 'Jost', sans-serif;
   font-size: 8rem;
   line-height: 1.1;
+  font-weight: 300;
+  &-bold {
+    font-weight: 400;
+    }
 }
 .display-1 > .mbr-iconfont {
   font-size: calc(2 * 5.75rem);
@@ -13,6 +17,10 @@ body {
   font-family: 'Jost', sans-serif;
   font-size: 6.5rem;
   line-height: 1.1;
+  font-weight: 300;
+  &-bold {
+    font-weight: 400;
+    }
 }
 .display-2 > .mbr-iconfont {
   font-size: calc(2 * 3.75rem);
@@ -21,11 +29,19 @@ body {
   font-family: 'Jost', sans-serif;
   font-size: 5rem;
   line-height: 1.5;
+  font-weight: 300;
+  &-bold {
+    font-weight: 400;
+    }
 }
 .display-4 {
   font-family: 'Jost', sans-serif;
   font-size: 4rem;
   line-height: 1.5;
+  font-weight: 300;
+  &-bold {
+    font-weight: 400;
+    }
 }
 .display-4 > .mbr-iconfont {
   font-size: calc(2 * 1.375rem);
@@ -34,6 +50,10 @@ body {
   font-family: 'Jost', sans-serif;
   font-size:  3.2rem;
   line-height: 1.5;
+  font-weight: 300;
+  &-bold {
+    font-weight: 400;
+    }
 }
 .display-5 > .mbr-iconfont {
   font-size:  calc(2 * 2.75rem);
@@ -42,20 +62,33 @@ body {
   font-family: 'Jost', sans-serif;
   font-size:  2.6rem;
   line-height: 1.5;
+  font-weight: 300;
+  &-bold {
+    font-weight: 400;
+    }
 }
 .display-7 {
   font-family: 'Jost', sans-serif;
   font-size:  2rem;
   line-height: 1.5;
+  font-weight: 300;
+  &-bold {
+    font-weight: 400;
+    }
 }
 .display-7 > .mbr-iconfont {
   font-size: calc(2 * 1.5rem);
 }
-.display-8 {
+.display-8 { 
   font-family: 'Jost', sans-serif;
   font-size:  1.6rem;
   line-height: 1.5;
+  font-weight: 300; 
+  &-bold {
+  font-weight: 400;
+  }
 }
+
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
 /* 100vw - current viewport width */
