@@ -11,6 +11,12 @@ function addTask() {
     }
 }
 
+function deleteAllTasks() {
+    var taskList = document.getElementById('taskList');
+    taskList.innerHTML = ''; // This clears out all the tasks
+    updateTasksCookie(); // Update the cookie to reflect the change
+}
+
 function addTaskToList(task) {
     var li = document.createElement('li');
     li.textContent = task;

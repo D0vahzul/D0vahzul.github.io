@@ -27,7 +27,16 @@ h1 {
     box-sizing: border-box;
     border: 1px solid #ddd;
 }
-
+#deleteAllTasks {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 85, 85);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 8px;
+}
 button {
     width: 100%;
     padding: 10px;
@@ -35,6 +44,7 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 button:hover {
