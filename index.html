@@ -2,15 +2,6 @@
 <html lang="tr">
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="assets/css/base.css">
-<script>
-    function deleteAllCookies() {
-    document.cookie.split(';').forEach(cookie => {
-        const eqPos = cookie.indexOf('=');
-        const name = eqPos > -1 ? cookie.substring(0, eqPos) : cookie;
-        document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:00 GMT';
-    });
-}
-</script>
 <head>
 </head>
 <body>
